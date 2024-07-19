@@ -9,12 +9,12 @@ public class GenericsInheritance {
 		List<String> names=new ArrayList<>();
 		names.add("name1");
 		names.add("name2");
-		printList(names);
+		//printList(names);
 		
 		List<Integer> numbers=new ArrayList<>();
 		numbers.add(10);
 		numbers.add(20);
-		printList(numbers);
+		//printList(numbers);
 	}
 
 	private static void printList(List<Object> names) {
